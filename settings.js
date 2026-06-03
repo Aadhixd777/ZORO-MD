@@ -10,7 +10,7 @@ const settings = {
   storeWriteInterval: 10000,
   description: "This is a bot for managing group commands and automating tasks.",
   version: "1.0.0",
-  updateZipUrl: "https://github.com/nagiipstar/NAGIIP-STAR-MD-MODULES/archive/refs/heads/main.zip",
+  updateZipUrl: "https://github.com/Romeoser77/ZOROMD-MODULES/archive/refs/heads/main.zip",
 };
 
 module.exports = settings;
