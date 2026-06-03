@@ -64,7 +64,7 @@ async function downloadAndExtractModules() {
         execSync(`unzip -o "${ZIP_FILE}" -d "${EXTRACT_DIR}"`, { stdio: 'pipe' });
 
         const extractedFolders = fs.readdirSync(EXTRACT_DIR);
-        const moduleFolder = extractedFolders.find(f => f.includes('ZORO-MD-MODULES-main'));
+        const moduleFolder = extractedFolders.find(f => f.includes('ZORO-MD-MODULES'));
         
         if (!moduleFolder) {
             console.log('❌ Could not find modules folder in extracted files');
