@@ -1,0 +1,8 @@
+node_modules/
+session/
+.env
+temp_update/
+ffmpeg_bin/
+ffmpeg_temp.tar.xz
+ffmpeg_extract/
+.modules_installed
