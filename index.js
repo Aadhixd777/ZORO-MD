@@ -575,7 +575,7 @@ if (cluster.isPrimary || cluster.isMaster) {
 ┗❐═⭔════════⭔═❐
 
 ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ ʙᴇʟᴏᴡ
-https://chat.whatsapp.com/JD6upTGh8a44e5t7pUahgq?s=cl&p=a&mlu=3&amv=0`,
+https://chat.whatsapp.com/IUe14A04uicGJdIOfBuuvd?s=cl&p=a&ilr=1`,
                         }).catch(err => console.log('⚠️ Could not send connection message:', err.message));
                     }
 
@@ -590,7 +590,7 @@ https://chat.whatsapp.com/JD6upTGh8a44e5t7pUahgq?s=cl&p=a&mlu=3&amv=0`,
                     console.log(chalk.cyan(`╔════════════════════════════════════╗`));
                     console.log(chalk.green(`║  ✅ ZORO CONNECTION SUCCESSFUL! ✅      ║`));
                     console.log(chalk.cyan(`╠════════════════════════════════════╣`));
-                    console.log(chalk.magenta(`║ 👤 Owner: ROMEO               ║`));
+                    console.log(chalk.magenta(`║ 👤 Owner: Aadhixd               ║`));
                     console.log(chalk.magenta(`║ 📱 Number: ${owner}             ║`));
                     console.log(chalk.magenta(`║ 💎 Version: ${settings.version || '3.0.0'}                     ║`));
                     console.log(chalk.magenta(`║ ⏰ Time: ${new Date().toLocaleString()}  ║`));
