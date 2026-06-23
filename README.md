@@ -8,7 +8,7 @@
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/VERSION-1.0.0-blue.svg" alt="Version"/></a>
   <a href="#"><img src="https://img.shields.io/badge/STATUS-ONLINE-green.svg" alt="Status"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/OWNER-ROMEO-orange.svg" alt="Owner"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/OWNER-Aadhixd-orange.svg" alt="Owner"/></a>
 </p>
 
 ---
