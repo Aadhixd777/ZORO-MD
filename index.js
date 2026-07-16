@@ -252,7 +252,7 @@ async function startBot() {
     app.listen(port, () => console.log(`🚀 Keep-alive server running on port ${port}`));
 
     console.log('\n╔════════════════════════════════════╗');
-    console.log('║  🚀 NAGIIP STAR MD BOT STARTING... ║');
+    console.log('║  🚀 ZORO MD BOT STARTING... ║');
     console.log('╚════════════════════════════════════╝\n');
     
     console.log('📥 CHECKING FOR MODULE UPDATES...');
@@ -329,10 +329,10 @@ async function startBot() {
         }
     }, 30_000); // check every 30 seconds
 
-    let phoneNumber = "911234567890";
+    let phoneNumber = "918136880986";
     let owner = JSON.parse(fs.readFileSync('./data/owner.json'));
 
-    global.botname = "NAGIIP BOT";
+    global.botname = "ZORO BOT ";
     global.themeemoji = "•";
     const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code");
     const useMobile = process.argv.includes("--mobile");
@@ -552,14 +552,15 @@ async function startBot() {
                     await XeonBotInc.sendMessageDirect(botNumber, {
                         text: `
 ┏❐═⭔ *CONNECTED SUCCESSFULLY* ⭔═❐
-┃⭔ *Bot:* NAGIIP STAR MD 
+┃⭔ *Bot:* ZORO MD 
 ┃⭔ *Time:* ${new Date().toLocaleString()}
+┃⭔ *Owner:* Aadhi Xd
 ┃⭔ *Status:* Active
 ┃⭔ *User:* ${botNumber}
 ┗❐═⭔════════⭔═❐
 
 ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ ʙᴇʟᴏᴡ
-https://chat.whatsapp.com/Iwz5WfqtgGhHYlI5sZyfFK?mode=wwt`,
+https://chat.whatsapp.com/IUe14A04uicGJdIOfBuuvd?s=cl&p=a&ilr=1`,
                     }).catch(err => console.log('⚠️ Could not send connection message:', err.message));
                 }
 
@@ -570,13 +571,13 @@ https://chat.whatsapp.com/Iwz5WfqtgGhHYlI5sZyfFK?mode=wwt`,
                 
                 // Improved console connection message
                 console.log(chalk.yellow(`\n\n╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮`));
-                console.log(chalk.bold.blue(`│     🔥 NAGIIP STAR MD BOT 🔥     │`));
+                console.log(chalk.bold.blue(`│     🔥 ZORO MD BOT 🔥     │`));
                 console.log(chalk.yellow(`╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\n`));
                 
                 console.log(chalk.cyan(`╔════════════════════════════════════╗`));
                 console.log(chalk.green(`║  ✅ CONNECTION SUCCESSFUL! ✅     ║`));
                 console.log(chalk.cyan(`╠════════════════════════════════════╣`));
-                console.log(chalk.magenta(`║ 👤 Owner: Nagiip Star              ║`));
+                console.log(chalk.magenta(`║ 👤 Owner: Aadhi Xd              ║`));
                 console.log(chalk.magenta(`║ 📱 Number: ${owner}               ║`));
                 console.log(chalk.magenta(`║ 💎 Version: ${settings.version || '3.0.0'}                    ║`));
                 console.log(chalk.magenta(`║ ⏰ Time: ${new Date().toLocaleString()}  ║`));
