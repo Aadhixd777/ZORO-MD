@@ -1,9 +1,9 @@
 const settings = {
-  packname: 'ZORO MD',
-  author: '‎',
+  packname: 'ZORO-MD',
+  author: 'Aadhixd',
   botName: "ZORO MD",
   botOwner: 'Aadhixd', // Your name
-  ownerNumber: '', //Set your number here without + symbol, just add country code & number without any space
+  ownerNumber: '918136880986', //Set your number here without + symbol, just add country code & number without any space
   giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
   commandMode: "public",
   maxStoreMessages: 20, 
@@ -13,4 +13,4 @@ const settings = {
   updateZipUrl: "https://github.com/Aadhixd777/ZORO-MD-MODULES-main/archive/refs/heads/main.zip",
 };
 
-module.exports = settings;
+module.exports = settings
